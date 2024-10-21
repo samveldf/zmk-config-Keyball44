@@ -77,7 +77,7 @@
             bindings = <
 &kp ESCAPE  &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                   &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp CARET  &kp LEFT_BRACKET  &kp DOLLAR    &kp GRAVE
 &none       &bt BT_CLR       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET              &kp BACKSLASH         &kp MINUS        &kp PLUS   &kp HASH          &kp SQT       &kp AT_SIGN
-&none       &trans           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE                &kp PIPE              &kp PLUS         &kp EQUAL  &kp LEFT_BRACE    &kp QUESTION  &none
+&none       &kp UNDERSCORE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE                &kp PIPE              &kp PLUS         &kp EQUAL  &kp LEFT_BRACE    &kp QUESTION  &none
 &trans      &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                         &trans  &trans                                                                            &trans
             >;
         };
