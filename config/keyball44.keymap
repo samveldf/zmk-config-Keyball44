@@ -56,7 +56,7 @@
             label = "QWRT";
             bindings = <
 &kp TAB         &kp Q         &kp W                                 &kp E        &kp R             &kp T                     &kp Y        &kp U  &kp I      &kp O    &kp P      &kp DELETE
-&kp LCTRL       &kp A         &kp S                                 &kp D        &kp F             &kp G                     &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LCTRL       &kp A         &kp S                                 &kp D        &kp F             &kp G                     &kp H        &kp J  &kp K      &kp L    &kp SEMI   &kp ENTER
 &kp LEFT_SHIFT  &kp Z         &kp X                                 &kp C        &kp V             &kp B                     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
 &kp LEFT_ALT    &kp LEFT_WIN  &mt LEFT_CONTROL LANG_ZENKAKUHANKAKU  &lt 4 SPACE  &lt 5 LANGUAGE_4             &kp BACKSPACE  &lt 2 ENTER                                        &kp DELETE
             >;
@@ -75,10 +75,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESCAPE  &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                   &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp CARET  &kp LEFT_BRACKET  &kp DOLLAR    &kp GRAVE
-&none       &bt BT_CLR       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET              &kp BACKSLASH         &kp MINUS        &kp PLUS   &kp HASH          &kp SQT       &kp AT_SIGN
-&none       &kp UNDERSCORE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE                &kp PIPE              &kp PLUS         &kp EQUAL  &kp LEFT_BRACE    &kp QUESTION  &none
-&trans      &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                         &trans  &trans                                                                            &trans
+&kp ESCAPE         &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                   &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp CARET  &kp LEFT_BRACKET  &kp DOLLAR    &kp GRAVE
+&kp LANG_HIRAGANA  &bt BT_CLR       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET              &kp BACKSLASH         &kp MINUS        &kp PLUS   &kp HASH          &kp SQT       &kp AT_SIGN
+&none              &kp UNDERSCORE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE                &kp PIPE              &kp PLUS         &kp EQUAL  &kp LEFT_BRACE    &kp QUESTION  &none
+&trans             &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                         &trans  &trans                                                                            &trans
             >;
         };
 
