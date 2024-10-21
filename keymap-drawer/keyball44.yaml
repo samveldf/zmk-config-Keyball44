@@ -38,9 +38,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: LANG5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: LANG ZENKAKUHANKAKU, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: LANG HIRAGANA, h: scroll}
+  - {t: LANGUAGE 4, h: scroll}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - $$mdi:backspace-reverse-outline$$
