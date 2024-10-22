@@ -38,9 +38,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: LANG ZENKAKUHANKAKU, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: LANG5, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: LANGUAGE 4, h: scroll}
+  - {t: Alt+ `, h: scroll, s: Alt+ ~}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: symbol}
   - PRINTSCREEN
@@ -102,7 +102,7 @@ layers:
   - {t: '[', s: '{'}
   - $
   - {t: '`', s: '~'}
-  - LANG HIRAGANA
+  - {t: Alt+ `, s: Alt+ ~}
   - $$mdi:bluetooth-off$$
   - '4'
   - '5'
