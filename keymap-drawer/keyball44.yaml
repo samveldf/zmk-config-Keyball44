@@ -38,7 +38,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: LANG5, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: INT4, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
   - {t: Alt+ `, h: scroll, s: Alt+ ~}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -103,7 +103,7 @@ layers:
   - $
   - {t: '`', s: '~'}
   - {t: Alt+ `, s: Alt+ ~}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '4'
   - '5'
   - '6'
@@ -133,7 +133,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:bluetooth-off$$
   function:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
