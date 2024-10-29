@@ -38,7 +38,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: INT4, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: INT KANA, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
   - {t: Alt+ `, h: scroll, s: Alt+ ~}
   - {t: '$$mdi:backspace$$', type: backspace}
